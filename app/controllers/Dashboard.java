@@ -34,8 +34,6 @@ public class Dashboard extends Controller {
     List<Member> members= Member.findAll();
     for (Member member : members) {
       member.bmiAnalytics();
-      member.bmiAnalytics();
-      member.getBMI();
       member.getBMI();
 
     }
