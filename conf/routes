@@ -17,8 +17,8 @@ GET     /about                                  About.index
 GET     /admin                                  Admin.index
 GET     /members/{id}                           MemberCtrl.index
 POST    /dashboard/                             Dashboard.addMembers
-GET     /trainerdashboard/deletemember/{id}     TrainerDasboard.deleteMember
-GET     /dashboard/deletemember/{id}            Dashboard.deleteMember
+GET     /trainerdashboard/deletemember/{id}     MemberCtrl.deleteMember
+GET     /dashboard/deletemember/{id}            MemberCtrl.deleteMember
 POST    /dashboard/{id}/getbmi/{assessmentid}     Dashboard.GetBMI
 POST    /dashboard/addassessments               Dashboard.addAssessments
 POST    /members/{id}/addcomment/{assessmentid}          MemberCtrl.addComment
