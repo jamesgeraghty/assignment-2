@@ -1,3 +1,7 @@
+/**
+ * Asessment model stores the assessment information for the member
+ */
+
 package models;
 
         import javax.persistence.Entity;
