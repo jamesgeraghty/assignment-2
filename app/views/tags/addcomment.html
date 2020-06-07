@@ -43,7 +43,8 @@
         #{/list}
     </tbody>
 </table>
-<form class="ui form" action="/addcomment/${assessment.id}" method="POST">
+<form class="ui secondary inverted charcoal segment form" action="/members/${_member.id}/addcomment/${assessment.id}"
+      method="POST">
     <div class="field">
         <input placeholder="Comment" type="text" name="comment">
     </div>
