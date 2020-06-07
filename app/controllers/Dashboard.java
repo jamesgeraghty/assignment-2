@@ -33,8 +33,11 @@ public class Dashboard extends Controller {
     Trainer trainer = Accounts.getLoggedInTrainer();
     List<Member> members= Member.findAll();
     for (Member member : members) {
-      member.getBMI();
       member.bmiAnalytics();
+      member.bmiAnalytics();
+      member.getBMI();
+      member.getBMI();
+
     }
     render("trainerDashboard.html",trainer,members);
   }
